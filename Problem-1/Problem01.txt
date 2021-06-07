@@ -1,0 +1,12 @@
+
+Problem Statement:- 
+
+Take a String value in str variable from keyboard.and find out given string is palindrome or not.if given string is not palindrome then try to make given string palindrome with minimum addition.
+
+Test-Cases
+
+"Hello"     output answer is "hellolleh"
+
+"abb"		output answer is "abba"  
+
+"aaabb"		output answer is "bbaaabb"
