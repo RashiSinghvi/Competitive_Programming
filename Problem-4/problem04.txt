@@ -1,0 +1,11 @@
+A String said to be a special string if either of two condition is met
+1) all of the character are the same Ex. aaa
+2) all characters except the middle one are the same Ex. aaabaaa
+
+A special substring is any substring of a string which meets one of above criteria,find out how many special substrings can be formed form it.don't use collection data-type[list,set,map..etc]
+
+Example
+
+str=mnonopoo
+Answer=12
+Temp-result={m,n,o,n,o,p,o,o,non,ono,opo,oo}  [Not Visible on output Screen]
