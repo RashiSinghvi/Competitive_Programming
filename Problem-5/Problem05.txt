@@ -1,0 +1,16 @@
+Problem-Statement:-
+
+You will be given a array name as "arr" of size "n",and a singal integer "k".you must create an array of length k from elements in arr such that its unfairness is minimized.call that array subarr.unfairness of an array is calculated as
+                        max(subarr)-min(subarr)
+where
+1) max denote the largest integer in subarr
+2) min denote the minimum integer in subarr
+
+as an Example,consider the array [1,4,7,2] with a k of 2.pick any two element,test subarr=[4,7]
+unfairness=max(4,7)-min(4,7)=7-4=3
+Testing for all pairs.the solution [1,2] provide the minimum unfairness.
+
+Example
+k=3
+size of array n=7
+arr={10,100,300,200,1000,20,30}
